@@ -1,6 +1,6 @@
 1. feature scaling (lessen gradient descent steps, particularly important for polynomial regression)
-   - mean normalization (x - mu) / s   s = range or sd
-   - standardization
+   - mean normalization: substract mean
+   - feature scaling: devided by range/sd
 2. Gradient Descent
    - need to choose proper alpha
    - need iteration
