@@ -8,4 +8,4 @@
 ## Goals
   1. Apply algorithms from scratch (mathematically) according to lectures 
   2. Build/Select models using Python packages
-  3. Compare the result
+  3. Compare the results
