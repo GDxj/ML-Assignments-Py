@@ -10,5 +10,6 @@
    - need to compute pinv(XT * X), which is n*n matrix
    - slow if large n
    - not always have analytical solution
-   - pinv(XT * X) non-invertable
-      * redundent features
+   - pinv(XT * X) non-invertable (singular)
+      * redundent features (colinearity) : delete one of them
+      * too many features (m << n) : delete some features, or use regularization
