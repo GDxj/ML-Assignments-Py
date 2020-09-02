@@ -7,7 +7,7 @@
    - work well when n (# of features) is large
 3. normal equation - analytical solution
    theta = (XT * X) ^ (-1) * XT * y
-   - need to compute (XT * X) ^ (-1), which is n*n matrix
+   - need to compute (XT * X) ^ (-1), which is a n*n matrix
    - slow if large n
    - not always have analytical solution
    - pinv(XT * X) non-invertable (singular)
