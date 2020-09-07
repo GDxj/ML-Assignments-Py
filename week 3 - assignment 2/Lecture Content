@@ -1,1 +1,17 @@
-1.
+## Logistic Regression
+
+1. Cost Function
+  identical to linear regression; h_theta changed (sigmoid transformation)
+  
+2. Other opnimazation algorithems (other thank GD)
+  - Conjugate Descent
+  - BFGS
+  - L-BFGS
+    * pick alpha automatically at each iteration; converge much faster than GD
+    * Adv and Disadv:
+    1. no need to pick alpha
+    2. faster than GD
+    3. more complex
+    
+ 3. Multiclass classification (i class)
+   - one vs all: i classfiers (similar to idea of dummy variable)
