@@ -9,9 +9,9 @@
   - L-BFGS
     * pick alpha automatically at each iteration; converge much faster than GD
     * Adv and Disadv:
-    1. no need to pick alpha
-    2. faster than GD
-    3. more complex
+      1. no need to pick alpha
+      2. faster than GD
+      3. more complex
     
  3. Multiclass classification (i class)
    - one vs all: build i classfiers (similar to idea of dummy variable)
