@@ -4,4 +4,5 @@
   - weight = theta, activation function = hypothethis (at each neuron，not just out put layer）
   - input layer, hiden layer, output layer, bias unit
   - use hidden layer to compute input of hypo instead of using x as input directly as logistic reg
-  - Multi Class: dummy variable
+  - Multi Class: similar to dummy variable
+  - do not regularize theta0 which is parameter of bias term
