@@ -1,5 +1,5 @@
 ## Neural Network
-  - Non linear classifier
+  - Non linear classifier （motivation) (log reg is linear classifier)
     when n large and there is no linear relation, it is hard to use quadratic/cubic terms as its going to create too many terms -> overfitting
   - weight = theta, activation function = hypothethis (at each neuron，not just out put layer）
   - input layer, hiden layer, output layer, bias unit
