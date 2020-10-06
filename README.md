@@ -9,3 +9,7 @@
   1. Apply algorithms from scratch (mathematically) according to lectures 
   2. Build/Select models using Python packages
   3. Compare the results
+
+## Notes
+  20201006: Starting from exercise3, Python version of matlab/octive pre-defined functions are quoted from here: https://github.com/dibgerge/ml-coursera-python-assignments/blob/master/Exercise3/exercise3.ipynb
+  Why: It is too time consuming to write pre-defined functions (which does not help understand the course) from scratch. 
