@@ -11,9 +11,9 @@
   * all 0 does not work
 
 - nn building Steps:
-  1. pick network architecture: number of layers, number of units...
+  * pick network architecture: number of layers, number of units...
      resonable default setting: 1. single hidden year 2. multiple hidden layers with same units (units the more the better but more computaional expensive)
-  2. training
+  * training
     1. randomly initializa weights
     2. implement fp to get h(x) for any x
     3. implement code to compute J(theta)
