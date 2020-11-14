@@ -14,3 +14,10 @@
 - model selection
   * train/validation/test  60/20/20
   * use validation set to select model
+- bias vs variance
+- choose lambda
+  1. pick lambdas within an interval (0.01, 0.02, 0.04, ..., 10.24)
+  2. calculate theta
+  3. calculate validation set error
+  4. pick lambda with lowest validation error
+- learning curve
