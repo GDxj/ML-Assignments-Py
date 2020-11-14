@@ -21,3 +21,12 @@
   3. calculate validation set error
   4. pick lambda with lowest validation error
 - learning curve
+  * high bias - 1. small gap between Jcv and Jtrain 2. getting more training data does not help much
+  * high variance - 1. large gap 2. getting more data likely helps
+- **DUMMARY**: debugging a learning algorithm (already applied regularization)
+  1. get more traing example - fix high variance (ploting learning curve first to identify high var)
+  2. try smaller set of features 
+  3. try additional features - fix high bias
+  4. getting poly features - fix high bias
+  5. decrease lambda - fix high bias
+  6. increase lambda - fix high var
