@@ -45,6 +45,6 @@
   * Trading Off Precision and Recall
     F score = 2*P*R/(P+R)    on validation set
 - useing large data sets
-  massive features + large data sets = perfect
+  * massive features + large data sets = perfect
   
     
