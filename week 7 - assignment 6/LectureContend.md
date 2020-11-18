@@ -18,7 +18,7 @@
   * multiclass
     1. one vs all
 - logistic reg vs svm
-  1. # features n > training set size m
+  1. number of features n > training set size m
     * use logistic reg or svm with linear kernel- not enough data to fit a complex model 
     * n small, m itermediate - svm with linear kernel/Gaussian
     * n << m svm with Gaussian will be slow, instead, manually create more features, use logistic reg or svm without kernel(linear)
