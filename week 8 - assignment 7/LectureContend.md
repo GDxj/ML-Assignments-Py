@@ -1,5 +1,5 @@
 # Unsupervised Learning
-## K means
+## 1. K means
 - iterative
   1. cluster assignment 
   2. move centroid
@@ -13,3 +13,23 @@
 - choose number of clusters K
   1. Elbow method
   2. purpose - ex: shirt size, S, M and L
+  
+## 2. Dimentionality Reduction
+- motivation: 
+  1. data compression: less memory and speed up learning algorithm
+  2. data visualization (normally down to 3D or 2D)
+- PCA 
+  * goal: minimize projection error
+  * steps:
+    1. preprocessing (mean normalization/feature scaling)
+    2. compute ‘covariance matrix’ Sigma - 1/m * X' * X
+    3. compute Eigenvectors - svd
+  * Reconstruction
+    - x = U * z
+  * choosing number of principle components k
+    1. average projection error (a)
+    2. total variation in the data (b)
+    3. choose k so that a/b <= 0.01 --- 99% of the variance is retained
+    4. faster way： use S in scd - refer to lecture
+  * do not use it to avoid overfitting, use regularization term instead
+  
