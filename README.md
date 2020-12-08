@@ -11,6 +11,6 @@
   3. Compare the results
 
 ## Notes
-  20201006: Starting from exercise3, Python version of matlab/octive pre-defined functions are quoted from here: https://github.com/dibgerge/ml-coursera-python-assignments <br>
+  * 20201006: Starting from exercise3, Python version of matlab/octive pre-defined functions are quoted from here: https://github.com/dibgerge/ml-coursera-python-assignments <br>
   As it is way too time consuming to write pre-defined functions (which does not help understand the course) from scratch. Mathematical part still built from scratch though.
-  20201208: one more great repository to learn from: https://github.com/andrewenoble/machine-learning-andrew-ng
+  * 20201208: one more great repository to learn from: https://github.com/andrewenoble/machine-learning-andrew-ng
