@@ -30,6 +30,6 @@
     1. average projection error (a)
     2. total variation in the data (b)
     3. choose k so that a/b <= 0.01 --- 99% of the variance is retained
-    4. faster way： use S in scd - refer to lecture
+    4. faster way： use S in svd - refer to lecture
   * do not use it to avoid overfitting, use regularization term instead
   
