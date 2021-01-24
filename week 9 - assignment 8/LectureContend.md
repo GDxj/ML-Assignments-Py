@@ -15,3 +15,5 @@
 - Error analysis, then create new feature to make algorithm cover the error
     
 ### Recommender System
+- ollaborative filtering (can do feature learning by estimating x given theta)
+  * can iterate: theta -> x -> theta -> x ...
