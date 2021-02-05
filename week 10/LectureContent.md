@@ -5,6 +5,6 @@
   1. randomly shuffle/reorder dataset
   2. use each training example a time, modify the parameter a bit and then go to next example (every iteration is on a single example)
   3. repeat step 2 multiple times (1 to 10) depending on training set size
-each gradient step for batch GD: use whole dataset
-each gradient step for stochastic GD: one data point
+- each gradient step for batch GD: use whole dataset
+- each gradient step for stochastic GD: one data point
   
