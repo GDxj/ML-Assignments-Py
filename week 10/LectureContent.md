@@ -7,4 +7,4 @@
   3. repeat step 2 multiple times (1 to 10) depending on training set size
 - each gradient step for batch GD: use whole dataset
 - each gradient step for stochastic GD: one data point
-  
+- mini-batch GD: b example each iteration (b = mini-batch size, typically 2-100), can be faster than stochastic GD by vectorization
